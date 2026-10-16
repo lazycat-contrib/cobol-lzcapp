@@ -1,0 +1,25 @@
+version: 1
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: dist/cobol.lpk
+  target_arch: amd64
+update:
+  strategy: publish
+  sync_license: true
+  allow_downgrade: false
+  version_source:
+    type: git
+    tag_regex: ^v?\d+\.\d+\.\d+$
+build:
+  run_buildscript: false
+  toolchains: none
+stores:
+  official:
+    enabled: false
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: COBOL 实战课程
+    summary: COBOL 现代化实战工坊与 Neovim 开发实践课程

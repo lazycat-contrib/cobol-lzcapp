@@ -1,0 +1,17 @@
+package: community.lazycat.app.cobol
+version: 1.0.0
+name: COBOL 实战课程
+description: COBOL 现代化实战工坊与 Neovim 开发实践课程
+min_os_version: 1.5.0
+homepage: https://github.com/iamcheyan/cobol
+author: iamcheyan
+locales:
+  zh:
+    name: COBOL 实战课程
+    description: COBOL 现代化实战工坊与 Neovim 开发实践课程
+  en:
+    name: COBOL Course
+    description: COBOL Hands-on Workshop
+permissions:
+  required:
+  - net.internet
