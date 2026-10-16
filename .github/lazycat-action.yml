@@ -12,7 +12,7 @@ update:
   version_source:
     type: git
 build:
-  run_buildscript: false
+  run_buildscript: true
   toolchains: []
 stores:
   official:

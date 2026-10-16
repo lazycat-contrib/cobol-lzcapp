@@ -2,3 +2,4 @@ manifest: ./lzc-manifest.yml
 pkgout: ./dist
 icon: ./icon.png
 contentdir: ./content
+buildscript: sh scripts/build-site.sh

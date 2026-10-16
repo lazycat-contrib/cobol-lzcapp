@@ -1,5 +1,5 @@
 package: community.lazycat.app.cobol
-version: 1.0.0
+version: 1.0.1
 name: COBOL 实战课程
 description: COBOL 现代化实战工坊与 Neovim 开发实践课程
 min_os_version: 1.5.0
