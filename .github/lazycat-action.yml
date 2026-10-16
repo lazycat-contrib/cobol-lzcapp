@@ -14,7 +14,7 @@ update:
     tag_regex: ^v?\d+\.\d+\.\d+$
 build:
   run_buildscript: false
-  toolchains: none
+  toolchains: []
 stores:
   official:
     enabled: false
