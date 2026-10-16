@@ -11,7 +11,6 @@ update:
   allow_downgrade: false
   version_source:
     type: git
-    tag_regex: ^v?\d+\.\d+\.\d+$
 build:
   run_buildscript: false
   toolchains: []
